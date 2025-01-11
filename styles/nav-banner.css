@@ -1,0 +1,53 @@
+.nav-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8rem;
+}
+.nav-title{
+    font-size:1.6rem;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+.nav-signin-button{
+    font-size:0.9rem;
+    font-weight:600;
+    color:#006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 0.4rem;
+}
+.banner{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 2.9rem;
+    background-color: #C6E4D6;
+    margin:0 8rem;
+    border-radius: 1.2rem;
+    gap:5rem; 
+}
+
+.banner-title{
+    font-size:1.2rem;
+    font-weight: medium;
+    color:#0E0E0E;
+    opacity: 50%;
+    margin-bottom: 0.8rem;
+}
+.banner-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color:#0E0E0E;
+    margin-bottom: 1.2rem;
+}
+.banner-btn{
+    font-size:0.9rem;
+    font-weight:600;
+    color:#FFFFFF;
+    padding: 15px 30px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+
