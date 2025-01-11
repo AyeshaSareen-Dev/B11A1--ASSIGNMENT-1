@@ -17,13 +17,16 @@
     border: 1px solid #006A50;
     border-radius: 0.4rem;
 }
+.nav-signin-button:hover{
+    background-color: #d9ebe6;
+}
 .banner{
     display:flex;
     justify-content: space-around;
     align-items: center;
     padding: 4rem 2.9rem;
     background-color: #C6E4D6;
-    margin:0 8rem;
+    margin:0 8rem 4rem 8rem;
     border-radius: 1.2rem;
     gap:5rem; 
 }
@@ -49,5 +52,11 @@
     background-color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
+}
+.banner-btn:hover{
+    background-color: #214924;
+}
+.p-margin-bottom{
+    margin-bottom: 1.6rem;
 }
 
