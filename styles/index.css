@@ -36,6 +36,7 @@ main, footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4rem;
+    /* display: table; */
     gap:1.2rem;
    
 }
@@ -45,6 +46,11 @@ main, footer{
     border-radius: 0.8rem;
     padding: 1.2rem;
     background-color: #fff;
+    flex: 1;
+    max-height: 290px; 
+    min-height: 290px;
+    /* display: table-cell; */
+    /* height: auto; */
 }
 .future-card-content{
     max-width: 22rem;
@@ -83,9 +89,10 @@ main, footer{
 
 
 .p-style{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #0E0E0E;
     opacity: 0.7;
+    line-height: 20px;
 }
 .future-card-container{
     display: flex;
@@ -207,6 +214,7 @@ td, table{
     margin-bottom: 0.6rem;
     /* display: inline-block; */
 }
+
 .donate{
     margin-bottom: 4rem;
     padding: 0 5.2rem;
@@ -306,12 +314,9 @@ td, table{
     border: 0;
     background-color: rgb(14,14,14,0.1);
     height: 1px;
-    /* clear:both; */
-    /* display:block; */
-    /* width: 96%;                */
   }
   #line {
       width: 731px;
-    /* float: left; */
-    /* height: 10px; */
+    
 }
+
